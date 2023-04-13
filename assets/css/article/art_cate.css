@@ -1,0 +1,10 @@
+.layui-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* 添加按钮 */
+.layui-input {
+  width: 90%;
+}
