@@ -11,7 +11,8 @@ $(function () {
       function (index) {
         //do something
         localStorage.setItem('token', '')
-        location.href = '/login.html'
+        location.href = '../login.html'
+        return false
         layer.close(index)
       }
     )
